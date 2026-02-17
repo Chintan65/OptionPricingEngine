@@ -1,4 +1,3 @@
-
 # Option Pricing & Backtesting Engine
 
 ## **Overview**
@@ -15,15 +14,15 @@ A high-performance **Option Pricing Engine** developed in **C++** to value deriv
 * **Data Flexibility** : Robust data pipeline capable of parsing standard CSVs, **Yahoo Finance** data, and **Bloomberg Terminal** exports.
 * **Quantitative Analytics** : Automated generation of risk metrics including  **Mean Hedging Error** ,  **Error Standard Deviation** , and  **Max Deviation** .
 
-Project Structure
-
-`OptionPricingEngine/
+```plaintext
+OptionPricingEngine/
 ├── src/            # C++ Source (Engine, Backtester, Logger)
 ├── include/        # C++ Headers (Pricing Interface, Types)
 ├── scripts/        # Python Tools (Data retrieval, Metrics, Plotting)
 ├── data/           # Market datasets (CSV)
 ├── logs/           # Backtest results and system logs
-└── Makefile        # Build automation`
+└── Makefile        # Build automation
+```
 
 Performance
 
