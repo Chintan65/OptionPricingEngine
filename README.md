@@ -4,7 +4,7 @@
 
 A high-performance **Option Pricing Engine** developed in **C++** to value derivatives and simulate dynamic delta-hedging strategies. The system implements both analytical and numerical methods to price European options and provides a robust backtesting framework to analyze hedging errors across diverse market scenarios.
 * **Multi-Model Pricing Engine** : Implements **Black-Scholes** (analytical), **Binomial Tree** (iterative/Cox-Ross-Rubinstein), and **Monte Carlo** (stochastic simulation) models.
-* 
+
 ```plaintext
 OptionPricingEngine/
 ├── src/            # C++ Source (Engine, Backtester, Logger)
